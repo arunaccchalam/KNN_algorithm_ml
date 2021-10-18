@@ -9,11 +9,8 @@ from sklearn.metrics import classification_report,confusion_matrix,accuracy_scor
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV
 
-
-
-
 # Data
-df = pd.read_csv('../DATA/gene_expression.csv')
+df = pd.read_csv('gene_expression.csv')
 df.head()
 
 # visuaizing the data
